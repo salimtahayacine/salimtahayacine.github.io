@@ -619,84 +619,130 @@ section {
 }
 
 /*--------------------------------------------------------------
-# Akills
+# Skills
 --------------------------------------------------------------*/
 .skills .progress {
   height: 60px;
   display: block;
   background: none;
   border-radius: 0;
+  margin-bottom: var(--spacing-xl);
 }
 
 .skills .progress .skill {
-  padding: 10px 0;
+  padding: var(--spacing-md) 0;
   margin: 0;
   text-transform: uppercase;
   display: block;
   font-weight: 600;
-  font-family: "Poppins", sans-serif;
-  color: #45505b;
+  font-family: var(--font-family-headings);
+  color: var(--text-dark);
+  font-size: var(--font-size-sm);
+  letter-spacing: 0.5px;
 }
 
 .skills .progress .skill .val {
   float: right;
   font-style: normal;
+  color: var(--primary-color);
+  font-weight: 700;
 }
 
 .skills .progress-bar-wrap {
-  background: #f2f3f5;
+  background: var(--background-light);
+  height: 8px;
+  border-radius: var(--border-radius-sm);
+  overflow: hidden;
+  box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.1);
 }
 
 .skills .progress-bar {
   width: 1px;
-  height: 10px;
-  transition: 0.9s;
-  background-color: #0563bb;
+  height: 8px;
+  transition: all 1.2s ease-in-out;
+  background: linear-gradient(90deg, var(--primary-color), var(--primary-hover));
+  border-radius: var(--border-radius-sm);
+  position: relative;
+}
+
+.skills .progress-bar::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.2), transparent);
+  animation: shimmer 2s infinite;
+}
+
+@keyframes shimmer {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(100%);
+  }
 }
 
 /*--------------------------------------------------------------
 # Resume
 --------------------------------------------------------------*/
 .resume .resume-title {
-  font-size: 26px;
+  font-size: var(--font-size-2xl);
   font-weight: 700;
-  margin-top: 20px;
-  margin-bottom: 20px;
-  color: #45505b;
+  margin-top: var(--spacing-xl);
+  margin-bottom: var(--spacing-xl);
+  color: var(--text-dark);
 }
 
 .resume .resume-item {
-  padding: 0 0 20px 20px;
+  padding: 0 0 var(--spacing-2xl) var(--spacing-xl);
   margin-top: -2px;
-  border-left: 2px solid #0563bb;
+  border-left: 2px solid var(--primary-color);
   position: relative;
+  background: var(--background-white);
+  border-radius: 0 var(--border-radius-md) var(--border-radius-md) 0;
+  margin-bottom: var(--spacing-lg);
+  transition: var(--transition-normal);
+}
+
+.resume .resume-item:hover {
+  transform: translateX(4px);
+  box-shadow: var(--shadow-light);
 }
 
 .resume .resume-item h4 {
-  line-height: 18px;
-  font-size: 18px;
+  line-height: 1.4;
+  font-size: var(--font-size-lg);
   font-weight: 600;
   text-transform: uppercase;
-  font-family: "Poppins", sans-serif;
-  color: #0563bb;
-  margin-bottom: 10px;
+  font-family: var(--font-family-headings);
+  color: var(--primary-color);
+  margin-bottom: var(--spacing-md);
+  letter-spacing: 0.5px;
 }
 
 .resume .resume-item h5 {
-  font-size: 16px;
-  background: #f7f8f9;
-  padding: 5px 15px;
+  font-size: var(--font-size-base);
+  background: var(--background-section);
+  padding: var(--spacing-sm) var(--spacing-lg);
   display: inline-block;
   font-weight: 600;
-  margin-bottom: 10px;
+  margin-bottom: var(--spacing-md);
+  border-radius: var(--border-radius-md);
+  color: var(--text-light);
+  border: 1px solid var(--border-color);
 }
 
 .resume .resume-item ul {
-  padding-left: 20px;
+  padding-left: var(--spacing-xl);
 }
 
 .resume .resume-item ul li {
-  padding-bottom: 10px;
+  padding-bottom: var(--spacing-md);
+  color: var(--text-light);
+  line-height: 1.6;
 }
 
 .resume .resume-item:last-child {
@@ -708,11 +754,12 @@ section {
   position: absolute;
   width: 16px;
   height: 16px;
-  border-radius: 50px;
+  border-radius: 50%;
   left: -9px;
   top: 0;
-  background: #fff;
-  border: 2px solid #0563bb;
+  background: var(--background-white);
+  border: 2px solid var(--primary-color);
+  box-shadow: var(--shadow-light);
 }
 
 /*--------------------------------------------------------------
