@@ -1,0 +1,223 @@
+{
+  "personalInfo": {
+    "name": "Salim Taha Yacine",
+    "title": "Front-end Developer, Back-end Developer, Mobile Developer, Designer",
+    "birthday": "16 juin 1993",
+    "phone": "+212 708044605",
+    "email": "Salimtahayacine@gmail.com",
+    "city": "Temara, MAROC",
+    "degree": "Postgraduate Degree \"licenced\"",
+    "freelance": "Fiver,UpWork",
+    "website": "",
+    "image": "https://scontent.fcmn5-1.fna.fbcdn.net/v/t39.30808-6/350650928_1661507597618126_238101605275154076_n.jpg?_nc_cat=110&ccb=1-7&_nc_sid=09cbfe&_nc_eui2=AeGOuxWSTmgf1FLsR-326y3JMdH-Sxg7L6Mx0f5LGDsvoxSseNFAnsW8a7ZCk7f-xMs6Fnm0Ef06UAJ0CoHkhA8r&_nc_ohc=KdstD2WnN1QAX9AaInh&_nc_zt=23&_nc_ht=scontent.fcmn5-1.fna&oh=00_AfA5mRFV2rX83RTZBFu78rox-W7C03SfVlCVpsmJyye_mg&oe=64EA306A"
+  },
+  "about": {
+    "title": "About",
+    "description": "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused to be an Pro Fullstack Web and Mobile enginner..",
+    "fullDescription": "UI/UX Designer &amp; Web/Mobile fullStack Developer. Birthday: 16 juin 1993 Website: This One Phone: +212 708044605 City: Temara, MAROC"
+  },
+  "skills": {
+    "title": "Skills",
+    "description": "Experienced full-stack web/mobile developer with a passion for creating dynamic and user-centered applications.",
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "90%"
+      },
+      {
+        "name": "CSS",
+        "level": "80%"
+      },
+      {
+        "name": "JavaScript",
+        "level": "75%"
+      },
+      {
+        "name": "React Native (expo)",
+        "level": "75%"
+      },
+      {
+        "name": "JAVA",
+        "level": "70%"
+      },
+      {
+        "name": "SpringBoot",
+        "level": "70%"
+      },
+      {
+        "name": "WordPress/CMS",
+        "level": "80%"
+      },
+      {
+        "name": "Adobe Photoshop/ Adobe illustrator/ Canva",
+        "level": "70%"
+      },
+      {
+        "name": "ANDROID STUDIO JAVA/KOTLIN",
+        "level": "70%"
+      },
+      {
+        "name": "GIT (github/gitlab)",
+        "level": "80%"
+      }
+    ]
+  },
+  "education": [
+    {
+      "degree": "BACCALAURÉAT  &amp; PHYSIQUE CHIMIE",
+      "period": "2013- juillet 2014",
+      "institution": "ALKINDI SCHOOL ,FKIH BEN SALAH, MOROCCO"
+    },
+    {
+      "degree": "DIPLÔME TECHNICIEN SPÉCIALISÉ &amp; TECHNIQUE DEDÉVELOPPEMENT INFORMATIQUE",
+      "period": "2014 - Juillet 2017",
+      "institution": "ISTA NTIC BENI MELLAL"
+    },
+    {
+      "degree": "DIPLÔME TECHNICIEN SPÉCIALISÉ &amp; TECHNIQUE DEDÉVELOPPEMENT INFORMATIQUE",
+      "period": "Octobre 2020 - Juillet 2021",
+      "institution": "LEADER TRAINING CENTERCASABLANCA"
+    },
+    {
+      "degree": "LICENCE UNIVERSITAIRE PROFESSIONNELLE &amp; INGÉNIERIE DESAPPLICATIONS MOBILES",
+      "period": "October 2021 - Juillet 2022",
+      "institution": "Université Hassan I - FST SETTAT"
+    },
+    {
+      "degree": "Certification &amp; SpringBoot, SpringBoot security, SpringBootMongodb et AWS S3, Android By Google",
+      "period": "Mai 2023 - Juillet 2022",
+      "institution": ""
+    }
+  ],
+  "experience": [
+    {
+      "title": "Développeur Web Full-Stack",
+      "period": "Janvier 2025 - Aujourd'hui",
+      "company": "Attime Technologie l Rabat",
+      "responsibilities": [
+        "Projet : SGIA (Système de Gestion des Investissements et des Achats) est une plateforme essentielle pour la gestion des dépenses et des marchés au sein du Ministère de l'Équipement et de l'Eau"
+      ]
+    },
+    {
+      "title": "Développeur Web Full-Stack",
+      "period": "Sept 2023 - Dec 2024",
+      "company": "I2S Ingenierie l Temara",
+      "responsibilities": [
+        "Projet : J'ai développé une application web qui fait le suivi des demandes de certifications pour les entreprises \"Habitat\" et qui génère le PV et le certificat, ainsi qu'une API pour la signature électronique.",
+        "Projet : une application Web pour situer des projets sur la carte géographique et faire des filtres et des calculs.",
+        "Technologies : Java, Spring Boot, SQL Server, Angular JS, Git, Bootstrap, Node JS, Express JS, Tomcat, PostgreSQL, Open Layer, Apache Echarts",
+        "Environnement de travail : IntelliJ IDEA, VS Code, GitHub, Server"
+      ]
+    },
+    {
+      "title": "Développeur Full-Stack",
+      "period": "Sept 2022 - Août 2023",
+      "company": "DEVOX l Temara Centre ville",
+      "responsibilities": [
+        "Projet: j'ai développé une application similaire a TRELLO qui gère les taches a faire et les managée par un ou une equipe de travail , sous forme des espace de travail qui contient des lista et chaque list avoir des carte (à faire, entrain ,terminée )",
+        "Technologies: Java, Spring Boot, PostgreSQL, Vuejs 3, Git, Vert.x, Tailwind CSS",
+        "Environnement de travail : IntelliJ IDEA, Node.js, VsCode, GitLab, Docker"
+      ]
+    },
+    {
+      "title": "Agent commercial / informaticien",
+      "period": "Janvier 2018 - Septembre 2020",
+      "company": "SOCIETÉ PIETRANOBILE SARL l Fkih ben Salah",
+      "responsibilities": [
+        "Gestion des factures",
+        "Gestion des clients",
+        "Gestion comercial",
+        "Environnement et outils de travail : Microsoft Excel, Autocad"
+      ]
+    },
+    {
+      "title": "Développeur FullStack (Stage)",
+      "period": "Janvier 2017 - Avril 2017",
+      "company": "INOVGROUP l Rabat",
+      "responsibilities": [
+        "J'ai commencer a apprendre java 8 core et la programmation orientee objet, les notion de creation server utilisant springboot",
+        "Technologies : Java, springboot",
+        "Environnement de travail : IntelliJ IDEA"
+      ]
+    }
+  ],
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Voici mes projets de développement web et applications réalisés au cours de mes expériences professionnelles.",
+    "projects": [
+      {
+        "image": "assets/img/portfolio/portfolio-1.jpg",
+        "title": "SGIA",
+        "description": "Système de Gestion des Investissements et des Achats - Plateforme gouvernementale pour la gestion des dépenses et des marchés au Ministère de l'Équipement et de l'Eau (Janvier 2025 - Présent)"
+      },
+      {
+        "image": "assets/img/portfolio/portfolio-2.jpg",
+        "title": "Système de qualification des entreprises",
+        "description": "Application web de suivi des certifications \"Habitat\" avec génération automatique de PV et certificats, incluant API de signature électronique (I2S Ingénierie - Sept 2023 à Déc 2024)"
+      },
+      {
+        "image": "assets/img/portfolio/portfolio-3.jpg",
+        "title": "API de signature électronique",
+        "description": "API sécurisée pour la signature électronique intégrée au système de certification Habitat, avec authentification avancée et gestion des certificats numériques"
+      },
+      {
+        "image": "assets/img/portfolio/portfolio-4.jpg",
+        "title": "Application cartographique",
+        "description": "Application web de géolocalisation avec filtres avancés et calculs, utilisant OpenLayers et Apache ECharts pour la visualisation de données géographiques (I2S Ingénierie)"
+      },
+      {
+        "image": "assets/img/portfolio/portfolio-5.jpg",
+        "title": "Clone Trello",
+        "description": "Application de gestion de projets avec espaces de travail, listes et cartes de tâches (à faire, en cours, terminé). Technologies: Java Spring Boot, PostgreSQL, Vue.js 3, Vert.x (DEVOX - Sept 2022 à Août 2023)"
+      },
+      {
+        "image": "assets/img/portfolio/portfolio-6.jpg",
+        "title": "Système d'authentification JWT",
+        "description": "Système d'authentification et d'autorisation avec JWT, gestion avancée des rôles et permissions, intégration Spring Security et protection contre les vulnérabilités web"
+      }
+    ]
+  },
+  "services": {
+    "title": "Services",
+    "description": "A web/mobile full stack developer offers a range of services related to building and maintaining both front-end and back-end components of web and mobile applications.",
+    "services": [
+      {
+        "title": "Front-End Development:",
+        "description": "Designing and creating user interfaces (UI) for web and mobile applications.\r\n                Implementing responsive and user-friendly designs using HTML, CSS, and JavaScript.\r\n                Integrating interactive elements, animations, and user experience enhancements."
+      },
+      {
+        "title": "Back-End Development",
+        "description": "Developing server-side logic and databases to power web and mobile applications.\r\n                Building APIs (Application Programming Interfaces) to facilitate communication between front-end and back-end systems.\r\n                Handling data storage, retrieval, and manipulation to support application functionality."
+      },
+      {
+        "title": "Database Management",
+        "description": "Designing and implementing databases to store and manage application data.\r\n                Optimizing database performance for efficient data retrieval and storage.\r\n                Ensuring data security and integrity through proper authentication and authorization mechanisms."
+      },
+      {
+        "title": "Server Configuration and Deployment",
+        "description": "Setting up and configuring web servers, application servers, and hosting environments.\r\n                Deploying applications to production servers, ensuring scalability and reliability.\r\n                Managing server maintenance, updates, and monitoring for smooth operation."
+      },
+      {
+        "title": "Testing and Debugging",
+        "description": "Writing unit tests, integration tests, and conducting manual testing to identify and fix bugs.\r\n                Debugging and optimizing code to enhance application performance and user experience."
+      },
+      {
+        "title": "Security Implementation:",
+        "description": "Implementing security measures to protect against common web vulnerabilities like cross-site scripting (XSS) and SQL injection.\r\n                Integrating authentication and authorization mechanisms to control user access."
+      }
+    ]
+  },
+  "socialLinks": {
+    "twitter": "",
+    "facebook": "https://www.facebook.com/tahayacine.salim",
+    "instagram": "https://www.instagram.com/stronglover",
+    "linkedin": "https://www.linkedin.com/in/taha-yacine-salim-4606a8225",
+    "skype": ""
+  },
+  "contact": {
+    "location": "Temara, Devox",
+    "email": "Salimtahayacine@gmail.com",
+    "phone": "+212 708044605"
+  },
+  "extractedAt": "2026-01-15T21:15:13.994Z"
+}
