@@ -29,14 +29,14 @@
   <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i&display=swap" rel="stylesheet">
 
   <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
-  <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css?v=2" rel="stylesheet">
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css?v=2" rel="stylesheet">
+  <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css?v=2" rel="stylesheet">
+  <link href="assets/vendor/boxicons/css/boxicons.min.css?v=2" rel="stylesheet">
+  <link href="assets/vendor/glightbox/css/glightbox.min.css?v=2" rel="stylesheet">
 
   <!-- Main CSS File -->
-  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/style.css?v=2" rel="stylesheet">
 
   <script type="application/ld+json">
   {
@@ -52,6 +52,15 @@
     ],
     "knowsAbout": ["Java", "Spring Boot", "Angular", "Vue.js", "React Native", "PostgreSQL", "SQL Server"]
   }
+  </script>
+  <!-- Sécurité : si les animations ne démarrent pas (ancien script en cache, erreur JS), on affiche quand même le contenu -->
+  <style>html.no-aos [data-aos]{opacity:1!important;transform:none!important}html.no-aos #preloader{display:none}</style>
+  <script>
+    window.addEventListener('load', function () {
+      setTimeout(function () {
+        if (!document.querySelector('.aos-animate')) document.documentElement.classList.add('no-aos');
+      }, 1500);
+    });
   </script>
 </head>
 
@@ -636,17 +645,17 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center" aria-label="Retour en haut"><i class="bi bi-arrow-up-short"></i></a>
 
   <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
+  <script src="assets/vendor/purecounter/purecounter_vanilla.js?v=2"></script>
+  <script src="assets/vendor/aos/aos.js?v=2"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js?v=2"></script>
+  <script src="assets/vendor/glightbox/js/glightbox.min.js?v=2"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js?v=2"></script>
+  <script src="assets/vendor/typed.js/typed.min.js?v=2"></script>
+  <script src="assets/vendor/waypoints/noframework.waypoints.js?v=2"></script>
 
   <!-- Main JS Files -->
-  <script src="assets/js/main.js"></script>
-  <script src="assets/js/contact-form.js"></script>
+  <script src="assets/js/main.js?v=2"></script>
+  <script src="assets/js/contact-form.js?v=2"></script>
 
 </body>
 
