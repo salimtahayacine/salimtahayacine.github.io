@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" role="img" aria-label="Salim Taha Yacine">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#0563bb"/>
+      <stop offset="1" stop-color="#22a6f2"/>
+    </linearGradient>
+  </defs>
+  <rect width="400" height="400" rx="32" fill="url(#g)"/>
+  <text x="200" y="235" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="140" font-weight="700" fill="#fff" letter-spacing="4">STY</text>
+  <text x="200" y="300" text-anchor="middle" font-family="Poppins, Arial, sans-serif" font-size="26" fill="#e6f3ff" letter-spacing="3">FULL-STACK DEVELOPER</text>
+</svg>
