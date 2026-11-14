@@ -284,8 +284,10 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top right no-repeat;
-  background-size: cover;
+  background:
+    radial-gradient(circle at 85% 20%, rgba(5, 99, 187, 0.18), transparent 45%),
+    radial-gradient(circle at 70% 85%, rgba(34, 166, 242, 0.15), transparent 40%),
+    linear-gradient(135deg, #f4f8fc 0%, #e8f1fa 100%);
   position: relative;
 }
 
@@ -297,7 +299,7 @@ h6 {
 
 #hero:before {
   content: "";
-  background: rgba(255, 255, 255, 0.8);
+  background: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='40' height='40'%3E%3Ccircle cx='2' cy='2' r='1.2' fill='%230563bb' fill-opacity='0.12'/%3E%3C/svg%3E");
   position: absolute;
   bottom: 0;
   top: 0;
@@ -339,6 +341,95 @@ h6 {
 }
 
 #hero .social-links a:hover {
+  color: #0563bb;
+}
+
+#hero .container {
+  position: relative;
+  z-index: 2;
+}
+
+/* Photo de Salim, posée sur le dégradé */
+#hero:after {
+  content: "";
+  position: absolute;
+  right: 4%;
+  bottom: 0;
+  width: min(48vw, 680px);
+  height: 92%;
+  background: url("../img/salim-cutout.webp") right bottom / contain no-repeat;
+  -webkit-mask-image: linear-gradient(to top, transparent 0%, #000 22%);
+  mask-image: linear-gradient(to top, transparent 0%, #000 22%);
+  z-index: 1;
+  pointer-events: none;
+}
+
+@media (max-width: 992px) {
+  #hero:after {
+    right: 50%;
+    transform: translateX(50%);
+    width: 100%;
+    height: 75%;
+    background-position: center bottom;
+    opacity: 0.18;
+  }
+}
+
+#hero .hero-actions {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+#hero .btn-hero {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 12px 28px;
+  border-radius: 50px;
+  background: #0563bb;
+  border: 2px solid #0563bb;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  transition: 0.3s;
+}
+
+#hero .btn-hero:hover {
+  background: #0678e3;
+  border-color: #0678e3;
+}
+
+#hero .btn-hero-outline {
+  background: transparent;
+  color: #0563bb;
+}
+
+#hero .btn-hero-outline:hover {
+  color: #fff;
+}
+
+@media (max-width: 992px) {
+  #hero .hero-actions {
+    justify-content: center;
+  }
+}
+
+.about .content ul.tech-list li {
+  margin-bottom: 6px;
+  display: list-item;
+  list-style: disc;
+  margin-left: 20px;
+}
+
+.about .content a,
+.contact .info a {
+  color: inherit;
+}
+
+.about .content a:hover,
+.contact .info a:hover {
   color: #0563bb;
 }
 

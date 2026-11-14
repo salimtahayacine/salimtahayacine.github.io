@@ -1,112 +1,142 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 
 <head>
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Portfolio Details - Personal Bootstrap Template</title>
-  <meta content="" name="description">
-  <meta content="" name="keywords">
+  <title>Projets | Salim Taha Yacine – Développeur Full-Stack</title>
+  <meta name="description" content="Détail des projets professionnels de Salim Taha Yacine : SGIA, qualification des entreprises Habitat, API de signature électronique, application cartographique, gestion de projets Kanban, authentification JWT.">
+  <link rel="canonical" href="https://salimtahayacine.github.io/portfolio-details.html">
 
-  <!-- Favicons -->
-  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/favicon.svg" rel="icon" type="image/svg+xml">
+  <link href="assets/img/favicon.png" rel="alternate icon" type="image/png">
   <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
 
-  <!-- Google Fonts -->
-  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700|Raleway:400,500,600,700|Poppins:400,500,600,700&display=swap" rel="stylesheet">
   <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
   <link href="assets/vendor/bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
   <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
-  <link href="assets/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
-  <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
-
-  <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
-
-  <!-- =======================================================
-  * Template Name: MyResume - v4.9.2
-  * Template URL: https://bootstrapmade.com/free-html-bootstrap-template-my-resume/
-  * Author: BootstrapMade.com
-  * License: https://bootstrapmade.com/license/
-  ======================================================== -->
+  <style>
+    .details-header { padding: 40px 0 10px; }
+    .details-header a.back { color: #0563bb; font-family: "Poppins", sans-serif; }
+    .project { padding: 40px 0; border-bottom: 1px solid #eef0f2; scroll-margin-top: 20px; }
+    .project:last-child { border-bottom: 0; }
+    .project img { border-radius: 8px; width: 100%; }
+    .project h2 { font-size: 28px; font-weight: 700; color: #45505b; margin-bottom: 6px; }
+    .project .meta { color: #728394; font-size: 15px; margin-bottom: 18px; }
+    .project .tags span { display: inline-block; background: #eef5fc; color: #0563bb; border-radius: 50px; padding: 4px 12px; margin: 0 6px 6px 0; font-size: 13px; }
+    .project ul { padding-left: 18px; }
+  </style>
 </head>
 
 <body>
 
   <main id="main">
+    <div class="container">
 
-    <!-- ======= Portfolio Details Section ======= -->
-    <section id="portfolio-details" class="portfolio-details">
-      <div class="container">
-
-        <div class="row gy-4">
-
-          <div class="col-lg-8">
-            <div class="portfolio-details-slider swiper">
-              <div class="swiper-wrapper align-items-center">
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-1.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-2.jpg" alt="">
-                </div>
-
-                <div class="swiper-slide">
-                  <img src="assets/img/portfolio/portfolio-details-3.jpg" alt="">
-                </div>
-
-              </div>
-              <div class="swiper-pagination"></div>
-            </div>
-          </div>
-
-          <div class="col-lg-4">
-            <div class="portfolio-info">
-              <h3>Project information</h3>
-              <ul>
-                <li><strong>Category</strong>: Web design</li>
-                <li><strong>Client</strong>: ASU Company</li>
-                <li><strong>Project date</strong>: 01 March, 2020</li>
-                <li><strong>Project URL</strong>: <a href="#">www.example.com</a></li>
-              </ul>
-            </div>
-            <div class="portfolio-description">
-              <h2>This is an example of portfolio detail</h2>
-              <p>
-                Autem ipsum nam porro corporis rerum. Quis eos dolorem eos itaque inventore commodi labore quia quia. Exercitationem repudiandae officiis neque suscipit non officia eaque itaque enim. Voluptatem officia accusantium nesciunt est omnis tempora consectetur dignissimos. Sequi nulla at esse enim cum deserunt eius.
-              </p>
-            </div>
-          </div>
-
-        </div>
-
+      <div class="details-header">
+        <a class="back" href="index.html#portfolio"><i class="bx bx-arrow-back"></i> Retour au portfolio</a>
+        <h1 class="mt-3">Mes projets</h1>
+        <p class="text-muted">Projets réalisés dans le cadre de mes expériences professionnelles. Ils sont confidentiels : le code source et les captures d'écran réelles ne sont pas publics.</p>
       </div>
-    </section><!-- End Portfolio Details Section -->
 
-  </main><!-- End #main -->
+      <section id="sgia" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-1.jpg" alt="SGIA"></div>
+          <div class="col-lg-7">
+            <h2>SGIA – Système de Gestion des Investissements et des Achats</h2>
+            <p class="meta">Attime Technologie · Rabat · Janvier 2025 - aujourd'hui · Développeur Full-Stack</p>
+            <p>Plateforme centrale de gestion des dépenses et des marchés au sein du Ministère de l'Équipement et de l'Eau.</p>
+            <div class="tags"><span>Application gouvernementale</span><span>Full-Stack</span></div>
+          </div>
+        </div>
+      </section>
 
-  <div id="preloader"></div>
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+      <section id="habitat" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-2.jpg" alt="Qualification des entreprises"></div>
+          <div class="col-lg-7">
+            <h2>Système de qualification des entreprises « Habitat »</h2>
+            <p class="meta">I2S Ingénierie · Temara · Septembre 2023 - Décembre 2024</p>
+            <ul>
+              <li>Suivi des demandes de qualification et de certification déposées par les entreprises.</li>
+              <li>Génération automatique des procès-verbaux (PV) et des certificats.</li>
+              <li>Intégration d'une API de signature électronique.</li>
+            </ul>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>Angular</span><span>SQL Server</span><span>Tomcat</span></div>
+          </div>
+        </div>
+      </section>
 
-  <!-- Vendor JS Files -->
-  <script src="assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="assets/vendor/aos/aos.js"></script>
-  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="assets/vendor/typed.js/typed.min.js"></script>
-  <script src="assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="assets/vendor/php-email-form/validate.js"></script>
+      <section id="signature" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-3.jpg" alt="API de signature électronique"></div>
+          <div class="col-lg-7">
+            <h2>API de signature électronique</h2>
+            <p class="meta">I2S Ingénierie · Temara · 2023 - 2024</p>
+            <p>API développée pour signer électroniquement les documents produits par le système de qualification (PV, certificats).</p>
+            <div class="tags"><span>API REST</span><span>Java</span><span>Spring Boot</span><span>Node.js / Express</span></div>
+          </div>
+        </div>
+      </section>
 
-  <!-- Template Main JS File -->
-  <script src="assets/js/main.js"></script>
+      <section id="cartographie" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-4.jpg" alt="Application cartographique"></div>
+          <div class="col-lg-7">
+            <h2>Application cartographique de suivi de projets</h2>
+            <p class="meta">I2S Ingénierie · Temara · 2023 - 2024</p>
+            <ul>
+              <li>Localisation des projets sur une carte interactive.</li>
+              <li>Filtres multicritères et calculs sur les projets affichés.</li>
+              <li>Visualisation des indicateurs sous forme de graphiques.</li>
+            </ul>
+            <div class="tags"><span>OpenLayers</span><span>Apache ECharts</span><span>PostgreSQL</span><span>Spring Boot</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="kanban" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-5.jpg" alt="Gestion de projets Kanban"></div>
+          <div class="col-lg-7">
+            <h2>Application de gestion de projets (Kanban)</h2>
+            <p class="meta">DEVOX · Temara · Septembre 2022 - Août 2023</p>
+            <ul>
+              <li>Espaces de travail partagés par une équipe.</li>
+              <li>Listes et cartes de tâches par statut : à faire, en cours, terminé.</li>
+            </ul>
+            <div class="tags"><span>Java</span><span>Spring Boot</span><span>Vert.x</span><span>PostgreSQL</span><span>Vue.js 3</span><span>Tailwind CSS</span><span>Docker</span></div>
+          </div>
+        </div>
+      </section>
+
+      <section id="jwt" class="project">
+        <div class="row gy-4">
+          <div class="col-lg-5"><img src="assets/img/portfolio/portfolio-6.jpg" alt="Authentification JWT"></div>
+          <div class="col-lg-7">
+            <h2>Authentification et autorisation JWT</h2>
+            <p class="meta">Module transverse · Spring Security</p>
+            <ul>
+              <li>Authentification par jetons JWT.</li>
+              <li>Gestion des rôles et des permissions.</li>
+              <li>Protection contre les failles web courantes.</li>
+            </ul>
+            <div class="tags"><span>Spring Security</span><span>JWT</span><span>Java</span></div>
+          </div>
+        </div>
+      </section>
+
+    </div>
+  </main>
+
+  <footer id="footer">
+    <div class="container">
+      <div class="copyright">&copy; <strong>Salim Taha Yacine</strong> · <a href="index.html" style="color:#fff">Retour à l'accueil</a></div>
+    </div>
+  </footer>
 
 </body>
 
